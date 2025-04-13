@@ -53,7 +53,7 @@ const NavBar = () => {
         </ul>
         <h3 className="ml-4">My Navbar</h3>
       </span>
-      <ul className="lg:flex hidden">
+      <ul className="lg:flex hidden items-center">
         {
           links
         }
@@ -71,7 +71,7 @@ const NavBar = () => {
                 <li className='mr-10'><a href="/blog">Blog</a></li>
             </ul> */}
 
-      <button>Sign In</button>
+      <button className="btn btn-soft">Sign In</button>
     </nav>
   );
 };

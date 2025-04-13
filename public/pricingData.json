@@ -35,6 +35,7 @@
     "id": 3,
     "name": "Premium Plan",
     "price": "$79/month",
+    "popular": true,
     "info": "Ideal for fitness enthusiasts who want full access and VIP-level services.",
     "features": [
       "All Standard Plan features",

@@ -9,11 +9,11 @@ const App = () => {
   return (
     <>
       <header>
-        <NavBar></NavBar>
+        <NavBar></NavBar> 
         {/* <DaisyNav></DaisyNav> */}
       </header>
       <main>
-        <Suspense fallback= {<span class="loading loading-spinner loading-lg"></span>}>
+        <Suspense fallback= {<span class="loading loading-spinner loading-lg flex mx-auto"></span>}>
           <PricingOptions pricingPromise={pricingPromise}></PricingOptions>
         </Suspense>
       </main>
